@@ -1,0 +1,148 @@
+﻿/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    font-family: 'Oswald'; 
+}
+
+.hide{
+    display:none; 
+}
+
+.reloadWrapper{
+    display:inline-block;
+}
+
+.reload {
+    margin-left: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.d{
+    margin-left:30px;
+}
+
+article{
+  width:900px;
+  height:30vh; 
+  border:0px solid black;
+  margin:30px auto;
+ 
+}
+
+.soundIcon{
+    cursor:pointer; 
+}
+
+header {
+    background-color: #305F7A;
+    color: white;
+    height: 100px;
+    border:0px solid black;
+}
+
+.headerWrapper {
+    border: 0px solid white;
+}
+
+.buttons {
+    float: right;
+}
+
+input {
+    margin-top: 30px;
+    outline: none;
+    font-size: 16px;
+}
+
+.inputWrapper {
+    width: 1000px;
+    margin: 0px auto;
+    border: 0px solid white;
+}
+
+input {
+    width: 800px;
+    height: 40px;
+}
+
+button {
+    height: 45px;
+    padding: 10px 5px;
+    font-size: 17px;
+    margin-left:-4px;
+    
+}
+
+@media only screen and (max-width:480px) {
+    .d {
+        margin-left: 5px;
+        width:480px;
+    }
+
+
+    header{
+        width:480px;
+        //border:3px solid red;
+    }
+
+    .headerWrapper {
+        width: 480px;
+        margin: 0px auto;
+        border: 0px solid red;
+    }
+
+    .inputWrapper {
+        width: 300px;
+        margin: 0px 10px;
+        border: 0px solid white;
+        display:inline;
+    }
+
+    input{
+        width:300px;
+        letter-spacing:1px;
+        font-size:20px;
+        
+    }
+
+    button {
+        height: 45px;
+        width:70px;
+        padding: 10px 5px;
+        font-size: 17px;
+        margin-left: -4px;
+        margin-right:4px; 
+        display:inline-block;
+    }
+
+    .buttons{
+        border:0px solid white; 
+        padding-right:2px;
+        display:none;
+    }
+   
+    article{
+        width:480px;
+        padding:10px;
+    }
+
+    .reload {
+        margin-left: 5px;
+        cursor: pointer;
+        border: 2px solid white;
+        padding: 7px;
+        border-radius: 50%;
+        display: inline;
+        margin-bottom: 50px;
+    }
+
+    .reloadWrapper {
+        display: inline;
+        margin-bottom:30px;
+    }
+}
